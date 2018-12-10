@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".Loginqueren">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="36dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_above="@+id/button"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_marginBottom="77dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="36dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="153dp"
+        android:text="确认信息无误" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="用户名："
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView14"
+        android:layout_alignRight="@+id/textView14"
+        android:layout_alignBottom="@+id/textView2"
+        android:text="密码："
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="@+id/textView15"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:text="返回" />
+
+
+</RelativeLayout>
