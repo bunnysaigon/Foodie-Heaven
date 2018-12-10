@@ -47,8 +47,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_x="0dp"
-        android:layout_y="0dp"
-        app:srcCompat="@drawable/gongbaojiding" />
+        android:layout_y="0dp" />
 
 
     <TextView
